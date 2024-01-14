@@ -1,13 +1,13 @@
 package SpringStarter.SpringChallenge.beans;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.swing.table.*;
 
 
 @Entity
-@Table(name="Country")
+@Table(name="mydb")
 public class Country {
 	@Id
 	@Column(name="id")
