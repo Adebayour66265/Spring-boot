@@ -28,7 +28,6 @@ public class ControllerMockitoTests {
 	CountryController countryController;
 	
 	List<Country> myCountries;
-	
 	Country country;
 	
 	@Test
